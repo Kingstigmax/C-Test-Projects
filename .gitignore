@@ -1,0 +1,85 @@
+# General
+*.o
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+
+# Compiled object files, binaries, and libraries
+*.obj
+*.out
+*.bin
+
+# Debug and release build directories
+/build/
+/bin/
+/lib/
+/dist/
+
+# CMake build directory
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+
+# Autotools generated files
+/autom4te.cache/
+/configure
+/config.log
+/config.status
+/Makefile.in
+/Makefile
+
+# Makefile generated artifacts
+Makefile
+Makefile.in
+
+# IDE/editor specific directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Linux specific files
+*.pid
+*.tar.gz
+*.deb
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Coverage output
+*.gcda
+*.gcno
+*.gcov
+
+# Dependency folders (for example if using package managers)
+vendor/
+node_modules/
+
+# Ignore executables and binaries by name (if applicable)
+/your_project_executable_name
+
+# Static analysis or code linting artifacts (if applicable)
+.clangd/
+.clang-format
+.clang-tidy
+
+# GDB and Valgrind related files
+.gdb_history
+.valgrind_log
+
+# Temporary files created by editors
+*~
+\#*\#
+
+# Core dumps (in case you want to exclude them)
+core
+
+# Shared memory files and other IPC artifacts
+*.lock
