@@ -31,7 +31,7 @@ void addStudent()
     printf(" Grade: \n");
     scanf("%f", &s.grade);
 
-    students[numStudents++] = s;
+    students[numStudents++] = s; //Not working here.
     printf("Student added...\n");      
 }
 
