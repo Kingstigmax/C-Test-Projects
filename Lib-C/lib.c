@@ -20,7 +20,7 @@ typedef struct Node
 
 Node* head = NULL;
 
-void addBook()
+void addBook() // add
 {
     Book newBook;
     printf("Enter book ID: ");
